@@ -1,0 +1,4 @@
+https://habrahabr.ru/company/edison/blog/313410/	Как объяснить бабушке, что такое Agile за 15 минут с картинками
+https://habrahabr.ru/post/106912/	Удачная модель ветвления для Git 
+https://habrahabr.ru/post/251361/	MVC и Модель 2. Знания и обязанности компонентов
+https://habrahabr.ru/post/38730/  	Архитектура REST
