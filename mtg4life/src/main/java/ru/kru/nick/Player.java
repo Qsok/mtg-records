@@ -15,15 +15,17 @@ import java.util.regex.MatchResult;
 @Table(name = "PLAYERS")
 public class Player {
     Long id;
+    Date registerDate;
+    HashMap<Player, Statistics> statistics; 
+    
     String firstName;
     String lastName;
     String nickName;
-    Date registerDate;
+
     List<Player> friends;
     List<Deck> decks;
-    HashMap<Player, Statistics> statistics;
     List<MatchResult> matchHistory;
-
+    
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
